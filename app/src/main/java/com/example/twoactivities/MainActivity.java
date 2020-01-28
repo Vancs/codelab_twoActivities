@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         mReplyHeadTextView = findViewById(R.id.text_header_reply);
         mReplyTextView = findViewById(R.id.text_message_reply);
 
-        // Restore the state.
+
         if (savedInstanceState != null) {
             if (savedInstanceState != null) {
                 boolean isVisible = savedInstanceState.getBoolean("reply_visible");
